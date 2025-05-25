@@ -596,22 +596,22 @@ const getStars = (rating) => {
 >
   {[
     {
-      img: 'public/moddern.webp',
+      img: '/moddern.webp',
       title: 'Modern Equipment',
       description: 'Train with top-tier machines and technology.',
     },
     {
-      img: 'public/trainer.jpg',
+      img: '/trainer.jpg',
       title: 'Personal Training',
       description: '1-on-1 coaching tailored for your body goals.',
     },
     {
-      img: 'public/class.avif',
+      img: '/class.avif',
       title: 'Group Classes',
       description: 'Energetic sessions like Zumba, HIIT, and Yoga.',
     },
     {
-      img: 'public/nut.jpeg',
+      img: '/nut.jpeg',
       title: 'Nutrition Plans',
       description: 'Custom diets to support your workout regime.',
     },
@@ -653,7 +653,7 @@ const getStars = (rating) => {
     muted
     playsInline
     className="absolute top-0 left-0 w-full h-full object-cover"
-    src="public/3196220-uhd_3840_2160_25fps.mp4"
+    src="/3196220-uhd_3840_2160_25fps.mp4"
   />
   <div className="absolute inset-0 bg-black/50 flex items-center justify-center text-center px-4">
     <div>
