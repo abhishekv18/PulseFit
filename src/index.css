@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes firePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.animate-firePulse {
+  animation: firePulse 1.5s infinite;
+}
+
+@keyframes textGlow {
+  0%, 100% { text-shadow: 0 0 10px #facc15; }
+  50% { text-shadow: 0 0 20px #facc15, 0 0 30px #f97316; }
+}
+
+.animate-text-glow {
+  animation: textGlow 3s infinite;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* index.css */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937; /* Tailwind gray-800 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #facc15; /* Tailwind yellow-400 */
+  border-radius: 4px;
+}
+
